@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<!--AngularJs-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+	<script src="js/controller.js"></script>
+</head>
+<body ng-app="app">
+
+<div ng-controller="MainCtrl">
+	<form>
+	<input type="text" name="message" ng-model="data.message">
+	<input type="text" name="number" ng-model="data.number">
+	<button type="" ng-click="send()">Button</button>
+</form>
+</div>
+
+
+</body>
+</html>
